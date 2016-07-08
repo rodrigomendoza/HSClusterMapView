@@ -194,7 +194,7 @@
         // Remove old markers
         if (![markersToDisplay containsObject:marker]) {
             // Marker shouldn't be on map anymore, remove it
-            [super removeMarker:marker];
+            [self removeMarker:marker];
         }
         else {
             // Marker already displayed on map, no need to display it
